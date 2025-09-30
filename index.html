@@ -70,4 +70,78 @@
       <h2>About Me</h2>
       <p>
         I am a graduate student focusing on <strong>AI + Music</strong>.  
-        My research interests include <
+        My research interests include <em>EEG-guided Music Source Separation</em>, <em>Generative Music</em>, and <em>Music Information Retrieval (MIR)</em>.  
+        I aim to combine neural decoding with intelligent audio systems to explore brain-inspired human–computer interaction in music.
+      </p>
+      <p class="muted">
+        Keywords: EEG decoding, Attention, Source Separation, Audio DSP, Transformers, Diffusion, PyTorch, HPC
+      </p>
+    </section>
+
+    <section id="research">
+      <h2>Research</h2>
+      <span class="chip">EEG × Audio Fusion</span>
+      <span class="chip">Music Source Separation (MSS)</span>
+      <span class="chip">Generative Music / Diffusion</span>
+      <span class="chip">Self-supervised Learning</span>
+      <span class="chip">Music Information Retrieval (MIR)</span>
+      <p class="muted">Long-term goal: enabling models to perceive human attention and preferences, and generate controllable, structured music.</p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>EGMP: EEG-Guided Music Perception</h3>
+          <p>A two-stage system: Stage 1 predicts the attended instrument from EEG; Stage 2 selects precomputed masks to separate the corresponding source.</p>
+          <p class="meta">Tech: PyTorch · torchaudio · Conv/Attention · Sliding Window</p>
+          <p><a href="https://github.com/JunoStellar/EGMP" target="_blank" rel="noopener">GitHub Repo</a></p>
+        </article>
+
+        <article class="card">
+          <h3>BASEN Reproduction & Variants</h3>
+          <p>Reproduced BASEN and explored multi-band (low/mid/high) separation and cross-modal alignment with cross-attention.</p>
+          <p class="meta">Tech: Dilated Conv · Cross Attention · EEGEncoder · HPC</p>
+          <p><a href="https://github.com/JunoStellar/BASEN" target="_blank" rel="noopener">GitHub Repo</a></p>
+        </article>
+
+        <article class="card">
+          <h3>Generative Audio Sketches</h3>
+          <p>Experiments with Diffusion/Transformer models to generate multi-instrument phrases under rhythm and harmony constraints.</p>
+          <p class="meta">Tech: Diffusion · Conditioning · MIDI/Audio Hybrid</p>
+          <p><a href="https://github.com/JunoStellar/generative-audio" target="_blank" rel="noopener">GitHub Repo</a></p>
+        </article>
+
+        <article class="card">
+          <h3>MIR Notes</h3>
+          <p>Study notes and small experiments on Music Information Retrieval, including beat, pitch, harmony, segmentation, and recommendation basics.</p>
+          <p class="meta">Tech: librosa · NumPy · Visualization</p>
+          <p><a href="https://github.com/JunoStellar/mir-notes" target="_blank" rel="noopener">GitHub Repo</a></p>
+        </article>
+      </div>
+    </section>
+
+    <section id="music">
+      <h2>Music</h2>
+      <p>My demos and reference tracks.</p>
+      <p><a href="https://soundcloud.com/" target="_blank" rel="noopener">SoundCloud</a> ·
+         <a href="https://www.youtube.com/" target="_blank" rel="noopener">YouTube</a></p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>
+        Email: <a href="mailto:zhong.820@osu.edu">zhong.820@osu.edu</a><br />
+        GitHub: <a href="https://github.com/JunoStellar" target="_blank" rel="noopener">github.com/JunoStellar</a><br />
+        LinkedIn: <a href="https://www.linkedin.com/in/" target="_blank" rel="noopener">linkedin.com/in/your-id</a>
+      </p>
+      <p class="muted mono">Last updated: <script>document.write(new Date().toISOString().slice(0,10))</script></p>
+    </section>
+
+    <footer>
+      © <span id="y"></span> JunoStellar · Built with GitHub Pages
+    </footer>
+  </div>
+  <script>document.getElementById('y').textContent = new Date().getFullYear()</script>
+</body>
+</html>
